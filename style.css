@@ -1,0 +1,232 @@
+@charset "utf-8";
+/*mga design*/
+body {
+	margin:0px;
+	padding:0px;
+	background-color:grey;
+	/* background-color:#2D383A; */
+
+	background-image: url(galaxy.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	font-family:montserrat,sans-serif;
+ 	box-shadow: inset 0px 0px 0px #fff;
+}
+.span {
+	font-weight: bold;
+	margin: 0px;
+	color:#00ff00;
+}
+
+	.navigation-container{
+		position: relative;
+		max-width: 100%;
+		padding: 10px;
+		margin: 20px 30px;
+		box-sizing: border-box;
+		background-color:;
+	}
+
+	.logo {
+		color: white;
+		height: 60px;
+		font-size: 36px;
+		line-height: 60px;
+		padding: 0px 20px;
+		text-align: center;
+		box-sizing: border-box;
+		float: left;
+		font-weight: 700;
+		text-decoration: none;
+		box-shadow: 0px 0px 20px #00ff00;
+		border:1px solid #ffff;
+		
+	}
+
+	.menu {
+		float:right;
+	}
+	.fix {
+		clear:both;
+	}
+	.menu ul{
+		margin: 10px;
+		padding: 10px;
+		display: flex;
+	}
+	
+	}
+	.menu ul li {
+		list-style:none;
+	}
+	.menu ul li a {
+		display:block;
+		margin: 10px 0px;
+		padding:10px 20px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 12px;
+		color: #00ff00;
+		box-shadow: 0px 0px 20px #00ff00 ;
+		border:1px solid #ffff;
+	}
+
+	.content-container {
+		position:relative;
+		max-width: 100% ;
+		max-height: 100%;
+		margin: 80px 30px 30px 50px;
+
+	}
+
+	.person {
+		position:absolute;
+		top:0;
+		left:65%;
+		height:490px;
+		width:500px;
+	}
+
+	.person img {
+		max-height: 100%;
+		max-width: 100%;
+		/* border:1px solid #ffff;
+		box-shadow: 0px 0px 20px #00ff00 ; */
+	}
+
+			h1 {
+				font-weight: bold;
+				margin: 0px;
+				color:#FFFFFF;
+			}
+						#h11 {
+							/*font-weight: bold;*/
+							margin: 0px 0px 30px;
+							color:#ffff;
+							letter-spacing: 0.5px;
+							box-sizing: border-box;
+							box-shadow: 0px 0px 20px 0px #00ff00;
+							padding: 0 20px;
+							border:1px solid #ffff;
+							padding: 0px 20px;
+							
+							
+
+						}
+
+			p {
+				font-size: 14px;
+				font-weight: 100;
+				line-height: 20px;
+				letter-spacing: 0.5px;
+				margin: 0px 0px 30px;
+				color:rgba(188,188,188,1.00);
+			}
+
+						#p1 {
+							font-size: 18px;
+							font-weight: 700;
+							line-height: 20px;
+							letter-spacing: 1px;
+							padding:10px 20px;
+							margin: 0px 0px 30px;
+							color:white;
+							/* box-shadow: 0px 0px 20px #00ff00 ;
+							border:1px solid #ffff; */
+							box-sizing: border-box;
+						
+						}
+
+
+			#img  {
+				max-height: 100%;
+				max-width: 50%;
+				border:1px solid #ffff;
+				box-shadow: 0px 0px 20px #00ff00 ;
+				position: absolute;
+				left: 70%;
+			}
+
+	.text { 
+		left: 0px;
+		width: 65%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 400px;
+	}
+
+	input[type=button] {
+		border:1px solid #fff;
+		border-radius: 20px;
+		background-color: transparent;
+		color: #FFFFFF;
+		font-size: 12px;
+		padding: 12px 45px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		outline: none;
+		transition: transform 80ms ease-in;
+		box-shadow: 0px 0px 20px #00ff00 ;
+
+	}
+	input[type=button]:active {
+		transform: scale(0.95);
+	}
+	input[type=button]:hover {
+		background-color:#808080;
+	}
+		.social {
+			position: absolute;
+			bottom: 40px;
+		}
+		.social ul li {
+			list-style: none;
+		}
+		.social ul li a {
+			text-decoration: none;
+			color: rgba(232,232,232,1.00);
+
+		}
+		.social i {
+			padding: 13px 20px;
+			font-size: 12px;
+		}
+			.fa-facebook:hover,
+			.fa-twitter:hover,
+			.fa-instagram:hover{
+				color: #FFFFFF;
+				font-size: 16px;
+			}
+		}
+		.button {
+			background-color:#ffff;
+			color:#0000;
+		}
+
+		.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.jomar {
+	margin-right: 10%;
+	}
+
+}
